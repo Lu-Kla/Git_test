@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" 
+    CodeFile="MasterPage.master.cs" Inherits="MyMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="style/Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%-- повещу три div --%>
+        <div id="heder">  
+            <h1 align="center"> 
+               ❄❄❄⛄ Заголовок⛄❄❄❄
+                <asp:Label ID="LabelAdd" runat="server"></asp:Label>
+            </h1>
+            </div>
+        <div id="menu">
+            <h2 align="center"> 🌹 Меню 🌹</h2>
+        </div>
+        <%-- <div id ="content"></div>
+       -- повещу три div --%>
+    <div id="content">
+        <asp:ContentPlaceHolder id="ContentHolder" runat="server">
+        ☀ Здесь какоето содержимое....☀
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿html,body {
+    margin:0px;
+   height:100%;  
+}
+/*правила для Головы - желтый
+    меню - зеленый
+*/
+
+#heder
+{
+    background-color:yellow;
+    height:10%
+    }
+#menu,content{
+height:90%
+}
+#menu {
+    background-color: forestgreen;
+    width: 20%;
+    float: left;
+}
+#content
+{
+    background-color:#ecdddd;
+    margin-left:20%;
+}
