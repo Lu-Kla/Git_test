@@ -9,6 +9,11 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        .auto-style8 {
+            width: 524px;
+        }
+    </style>
 </head>
     <svg xmlns="http://www.w3.org/2000/svg" width="780" height="140" viewBox="0 0 780 140">
 				<g fill="none" fill-rule="evenodd">
@@ -20,7 +25,7 @@
 				</g>
 	</svg>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" class="auto-style8">
         <div>
         </div>
          <asp:TextBox ID="TextBoxAge" runat="server" Font-Size="Large" Width="47px"></asp:TextBox>
@@ -39,6 +44,9 @@
      
         
     </form>
+    <form>
+        </form>
+
     <p>
         &nbsp;</p>
 </body>

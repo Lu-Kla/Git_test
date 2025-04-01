@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="MultiControl.aspx.cs" Inherits="MultiControl" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="MultiControl.aspx.cs" Inherits="MultiControl" trace="true"%>
 
 <!DOCTYPE html>
 
